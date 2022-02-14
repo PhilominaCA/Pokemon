@@ -128,8 +128,8 @@ async function getPokeData(first, Sec) {
     catch (e) {
         console.log(e);
         let error_msg = document.createElement("h4");
-        error_msg.innerHTML = `Sorry Can't Fetch Any Pokemons right now <br/>
-        Kindly access the URL : https://cors-anywhere.herokuapp.com/corsdemo   ,<br/>
+        error_msg.innerHTML = `Sorry Can't Fetch Any Pokemons right now <br/><br/>
+        Kindly access the URL : <a href="https://cors-anywhere.herokuapp.com/corsdemo">https://cors-anywhere.herokuapp.com/corsdemo </a>  ,<br/>
         then click on the button <i>'request temporary access to the demo server'</i> button, then again try accessing the site`;
         document.body.appendChild(error_msg);
 
